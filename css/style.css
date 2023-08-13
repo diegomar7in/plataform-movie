@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gruppo&family=Poppins&display=swap');
+/*
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Gruppo', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------- HEADER --------------------------- */
+
+header{
+    position: fixed;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.logo-header{
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+    margin-left: 100px;
+    font-weight: bold;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Gruppo', sans-serif;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: #C43A5A;
+}
+
+
+.button-header{
+    font-family: 'Gruppo', sans-serif;
+    margin-right: 100px;
+    color: white;
+    background-color: #C43A5A;
+    padding: 10px 40px;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 20px;
+    border: 2px solid #C43A5A;
+    border-radius: 100px;
+    margin-right: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-header:hover{
+    background-color: rgb(77, 25, 125);
+    border:2px solid rgb(77, 25, 125);
+}
+
+/* --------------------------- HERO --------------------------- */
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(0,0,0,0.8),rgb(0,0,0,0.8),rgb(0,0,0,0.1)),url(../images/background-hero.jpg);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+}
+
+h1 span{
+    color: #C43A5A;;
+}
+
+.texto-hero{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor-icon-text{
+    color: white;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-text{
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-icon{
+    margin-right: 10px;
+}
+
+.icon-hero{
+    font-size: 20px;
+    color: #C43A5A;
+}
+
+.icon-text p{
+    font-weight: bold;
+    font-family: 'Gruppo', sans-serif;
+}
+
+.button-hero-1{
+    color: white;
+    background-color: #C43A5A;
+    padding: 10px 50px;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 20px;
+    border: 2px solid #C43A5A;
+    border-radius: 100px;
+    margin-right: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-hero-1:hover{
+    background-color: rgb(77, 25, 125);
+    border:2px solid rgb(77, 25, 125);
+}
+
+
+
+
+
+.button-hero-2{
+    color: white;
+    background-color: transparent;
+    padding: 10px 50px;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 20px;
+    border: 2px solid #C43A5A;
+    border-radius: 100px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-hero-2:hover{
+    color: #ffffff;
+    background-color: #C43A5A;
+    border: 2px solid #C43A5A;
+}
